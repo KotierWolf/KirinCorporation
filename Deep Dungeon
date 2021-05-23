@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="ca6bf91b-7785-4544-9bf2-669b64fdcc5a" Name="Palace of the Dead" Enabled="true">
+    <Folders>
+      <Folder Id="02fa0e2d-53f7-47de-85de-d982c0000f23" Name="Enemies" Enabled="true">
+        <Folders>
+          <Folder Id="2fb3fc00-e434-4be7-9b17-f1eae4fd6f9e" Name="Heavenly Hyoga" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Absolute Zero" Id="a3f4d5c3-f966-458b-9285-4177cce86f36" RegularExpression="14:2FE6:">
+                <Actions>
+                  <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" PlaySpeechMyself="True" UseTTSTextExpression="Get behind" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers>
+          <Trigger Enabled="true" Name="The Dragon's Voice" Id="334b0fcc-b9de-4fea-84ec-04abd4d42c90" RegularExpression="14:1BA7:|14:3090:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Inside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="The Ram's Voice" Id="cf0b626e-0f21-4cbe-9ea9-3c82efd1885c" RegularExpression="14:1BA6:|14:308F:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Get Out" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Level 5 Death" Id="3a4b6c58-9fe8-4650-b43a-47ba42c80bf2" RegularExpression="14:1BAC">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Avoid Death" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Infatuation" Id="f8097577-12ea-4c8f-80bd-0b78be7e58fd" RegularExpression="14:18FD:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Mimic Silence" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Mimic Spawn" Id="fc942c29-c2fa-4339-9654-aace77e42b6e" RegularExpression="Added new combatant Mimic.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Mimic" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Quivering Coffer Spawn" Id="e19e2e54-5cb7-4666-bed8-58caf33a7d1f" RegularExpression="Added new combatant Quivering Coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Mimic" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Malice" Id="0c47b0c4-831e-44f0-8bfb-ab9421933737" RegularExpression=" 14:3019:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Mimic Silence" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Elbow Drop" Id="b7791290-0d5d-4fd4-b76d-563ea709b218" RegularExpression="14:30A2:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Elbow Drop" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Golden Tongue" Id="9e50df54-135f-4a65-9e75-8ed881039828" RegularExpression="14:2FBE:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Golden Tongue" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Ripper Claw" Id="3fbb9215-3dd8-43ae-88a4-5958583e9a54" RegularExpression="14:30DC:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Ripper Claw" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Look Away" Id="0b9866b0-6b9a-4bb2-a088-17c0fd8a50fe" RegularExpression="14:306D:|14:2FE5:|14:2FF9:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Look Away" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Scream" Id="2456c409-ca5a-45b1-b292-9034b50a82e7" RegularExpression="14:2FA3:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Scream Silence" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Allagan Meteor" Id="4d3070ce-2bde-462a-968e-b3668e9b0082" RegularExpression="14:2FF8:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Meteor" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="128-Tonze Swing" Id="e656f74d-6989-4002-9e5c-5340a6fb00d5" RegularExpression="14:3003:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Move Away" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="32-Tonze Swipe" Id="9852cb41-454d-4939-911d-7a29bbdd8eb8" RegularExpression="14:3005:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Get Behind" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Level 5 Petrify" Id="fdec270b-1377-4503-bb1b-e46ac4ec2874" RegularExpression="14:1B77:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Avoid Petrify" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Heavenly Mammoth" Id="745e92b0-1a75-4a56-92f4-4eaaa86b3e4f" RegularExpression="14:2FBA:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" PlaySpeechMyself="True" UseTTSTextExpression="Get Behind" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="cc07ad77-6e89-4bb6-b3c2-662cbdc10f75" Name="Traps" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="Landmine" Id="b473ccf0-c599-4323-a9c4-b933cbb6543e" RegularExpression="Trap:1883:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Landmine" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="b473ccf0-c599-4323-a9c4-b933cbb6543e" ActionType="Trigger">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="b473ccf0-c599-4323-a9c4-b933cbb6543e" ActionType="Trigger" ExecutionDelayExpression="10000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Luring" Id="8b9d4a5a-5468-4c7e-9e3d-0a752c12e6ef" RegularExpression="Trap:1884:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Luring trap" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="8b9d4a5a-5468-4c7e-9e3d-0a752c12e6ef" ActionType="Trigger" ExecutionDelayExpression="1000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Detonator" Id="e092582e-3bd1-40e8-a362-3d75ad6c8e04" RegularExpression="Trap:188C:">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Bomb Chest" UseTTSExclusive="False" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="e092582e-3bd1-40e8-a362-3d75ad6c8e04" ActionType="Trigger">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="e092582e-3bd1-40e8-a362-3d75ad6c8e04" ActionType="Trigger" ExecutionDelayExpression="10000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="0c50a4a8-c510-4606-8624-645171ea8b0b" Name="Pomanders" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="Affluence" Id="34381706-7021-4ae3-8d0f-41352ff5b0b3" RegularExpression="You return the pomander of affluence to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Affluence" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Alteration" Id="1d206207-3ad6-4165-8bdb-fe98083af685" RegularExpression="You return the pomander of alteration to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Alteration" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Concealment" Id="bea9179a-2e70-4601-8aa2-df598d6538c3" RegularExpression="You return the pomander of concealment to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Concealment" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Flight" Id="f0b84e14-86a5-4e65-b13c-f20ed83d7259" RegularExpression="You return the pomander of flight to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Flight" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Fortune" Id="94e8b9b8-c64d-4aee-8514-7064e2976388" RegularExpression="You return the pomander of fortune to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Fortune" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Frailty" Id="ee579cc7-5f79-4bb2-87dc-b5110fe86e7c" RegularExpression="You return the pomander of frailty to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Frailty" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Intuition" Id="955af92f-08f6-4c81-9b80-f49bba789f78" RegularExpression="You return the pomander of intuition to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Intuition" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Lust" Id="1a74c42a-cdce-445e-9f3c-be48564d20bc" RegularExpression="You return the pomander of lust to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Lust" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Magicite" Id="e41587f4-e160-4dc3-94f3-ede30dc517fa" RegularExpression="You return the splinter">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Ultimate Power" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Petrification" Id="29cd16a4-719c-439e-a258-2e12cc70bcaa" RegularExpression="You return the pomander of petrification to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Petrification" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Purity" Id="11c3293a-e7e2-4adf-92d0-be3e24ecbc84" RegularExpression="You return the pomander of purity to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Purity" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Rage" Id="f2b00a2f-f45b-4de4-857c-2538a3e50522" RegularExpression="You return the pomander of rage to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Rage" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Raising" Id="1f9258f0-e4fb-40a4-840d-9379d47e9aeb" RegularExpression="You return the pomander of raising to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Raising" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Resolution" Id="ee5d1918-0345-4370-ae67-6b78d41a34d4" RegularExpression="You return the pomander of resolution to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Resolution" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Safety" Id="a7629d6d-1efa-4a36-a66f-200a27176247" RegularExpression="You return the pomander of safety to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Safety" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Serenity" Id="d2ca00cc-9261-4407-b695-4a935e0420e4" RegularExpression="You return the pomander of serenity to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Serenity" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Sight" Id="120cded8-8403-41d7-af0c-95a3162e39af" RegularExpression="You return the pomander of sight to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Sight" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Steel" Id="7479cf96-ee91-4e33-975f-2099c7b10cd9" RegularExpression="You return the pomander of steel to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Steel" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Stength" Id="a2a333a8-80ac-4521-8091-a15a5ee22cd1" RegularExpression="You return the pomander of strength to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Strength" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Tank Stance" Id="cadf7f7f-3abd-4b6d-9ec3-aafb99f796c0" RegularExpression="The current duty uses an independent leveling system.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Tank Stance" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="The Beacon of Passage" Id="b7d1765b-6014-4769-83a8-a9a875b94f1f" RegularExpression="The Beacon of Passage is activated!|The Cairn of Passage is activated!">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" PlaySpeechMyself="True" UseTTSTextExpression="Ready to Exit!" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Witching" Id="75c0be52-559f-4fc9-b222-6d2a63514b38" RegularExpression="You return the pomander of witching to the coffer.">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="Witching" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="463d4419-15a0-4d8b-b3c2-008b6a66c31a" Name="Bosses" Enabled="true">
+        <Folders>
+          <Folder Id="5836fb20-0daa-4e89-bf7e-d67ec21211ab" Name="Gozu" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Rusting Claw" Id="22afd958-cf35-40a0-a154-defdfe8944c8" RegularExpression="14:2E8F:">
+                <Actions>
+                  <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" UseTTSTextExpression="Tank Cleave" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Words of Woe" Id="7555110b-2698-400f-a73d-c7613fdfd001" RegularExpression="14:2E90:">
+                <Actions>
+                  <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" UseTTSTextExpression="Get Behind" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Eye of Fire" Id="31d7bd3b-15f8-427c-8cff-5a57ac841426" RegularExpression="14:2E92:">
+                <Actions>
+                  <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" UseTTSTextExpression="Look Away" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
